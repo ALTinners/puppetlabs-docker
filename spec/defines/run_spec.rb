@@ -265,7 +265,7 @@ describe 'docker::run', type: :define do
             'links'                             => [],
             'lxc_conf'                          => [],
             'manage_service'                    => true,
-            'memory_limit'                      => '0b',
+            'memory_limit'                      => undef,
             'net'                               => 'bridge',
             'ports'                             => [],
             'privileged'                        => false,

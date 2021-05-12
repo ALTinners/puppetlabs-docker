@@ -3070,7 +3070,7 @@ Data type: `Optional[Pattern[/^[\d]*(b|k|m|g)$/]]`
 
 
 
-Default value: `'0b'`
+Default value: ``undef``
 
 ##### <a name="cpuset"></a>`cpuset`
 
